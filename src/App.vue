@@ -1,16 +1,9 @@
 <template>
-  <h1 className="text-3xl font-bold underline">Hello world!</h1>
-  <hr />
-
-  <CounterComponent :value="5" />
-  <CounterComponentScript :value="10" />
-  <CounterComponentScript2 :value="13" />
+  <IndecisionView />
 </template>
 
 <script setup lang="ts">
-import CounterComponent from './components/CounterComponent.vue';
-import CounterComponentScript from './components/CounterComponentScript.vue';
-import CounterComponentScript2 from './components/counter-component/CounterComponentScript2.vue';
+import IndecisionView from '@/views/IndecisionView.vue';
 </script>
 
 <style scoped></style>
