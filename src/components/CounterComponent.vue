@@ -1,7 +1,7 @@
 <template>
   <section>
     <h3>Counter: {{ counter }}</h3>
-    <h3>Square: {{ squareCounter }}</h3>
+    <h3 data-testid="square-label">Square: {{ squareCounter }}</h3>
 
     <div>
       <button class="btn" @click="counter--">-1</button>
@@ -19,7 +19,7 @@ interface Props {
   value: number;
 }
 
-const { counter, squareCounter } = useCounter(13);
+const { counter, squareCounter } = useCounter(props.value);
 </script>
 
 <style scoped>
