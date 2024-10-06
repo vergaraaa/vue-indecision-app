@@ -19,7 +19,7 @@ interface Props {
   value: number;
 }
 
-const { counter, squareCounter } = useCounter(props.value);
+const { counter, squareCounter } = useCounter(13);
 </script>
 
 <style scoped>
