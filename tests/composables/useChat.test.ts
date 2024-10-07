@@ -1,5 +1,4 @@
 import { useChat } from '@/composables/useChat';
-import { json } from 'stream/consumers';
 import { describe, expect, test, vi } from 'vitest';
 
 describe('useChat', () => {
